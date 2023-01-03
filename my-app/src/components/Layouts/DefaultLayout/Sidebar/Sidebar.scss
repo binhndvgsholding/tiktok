@@ -1,0 +1,163 @@
+.tiktok-r0hg2a-DivSideNavContainer{
+    position: relative;
+    width: 356px;
+    .tiktok-1a4urrd-DivWrapper{
+        overflow-x: hidden;
+        overflow-y: auto;
+        overscroll-behavior-y: contain;
+        perspective: 1px;
+        transform-style: preserve-3d;
+        perspective-origin: right top;
+        top: 60px;
+        bottom: 0;
+        width: 356px;
+        background: rgba(255, 255, 255, 1);
+        position: fixed;
+        z-index: 99;
+        padding-right: 8px;
+    }
+    .tiktok-DivScrollContainer-StyledScroll{
+        padding: 20px 0 26px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: stretch;
+        align-items: stretch;
+        min-height: 100%;
+        padding-left: 8px;
+    }
+    .tiktok-1inll25-DivMainNavContainer{
+        margin-bottom: 8px;
+        padding: 0;
+    }
+    .tiktok-1s4a8it-StyledTmpLink{
+        position: relative;
+        display: flex;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: center;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 4px;
+        transition: background ease-in-out 200ms;
+        text-decoration: none;
+    }
+    .icon-sidebar{
+        width: 27px;
+        height: 27px;
+        color: black;
+
+    }
+    .tiktok-lhjwdg-H2MainNavText{
+        color: black;
+        font-family: ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        margin-left: 8px;
+    }
+
+    .tiktok-he1edq-DivUserContainer{
+        padding: 16px 0;
+        color: rgba(22, 24, 35, .75);
+        font-family: ProximaNova,Arial,Tahoma,PingFangSC,sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        position: relative;
+        .suggest-accounts{
+            margin-bottom: 8px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .tiktok-1mo2fkg-DivUserLinkContainer{
+            display: flex;
+            flex-direction: row;
+            -webkit-box-align: center;
+            align-items: center;
+            position: relative;
+            border-radius: 4px;
+            transition: background 200ms ease-in-out 0s;
+            .suggest-user-avatar{
+                text-decoration: none;
+                .tiktok-n1lhfn-DivContainer-StyledUserAvatar{
+                    position: relative;
+                    display: flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                    margin-right: 12px;
+                    .tiktok-13abja1-SpanAvatarContainer-StyledAvatar{
+                        display: inline-block;
+                        box-sizing: border-box;
+                        margin: 0;
+                        padding: 0;
+                        font-feature-settings: "tnum";
+                        position: relative;
+                        overflow: hidden;
+                        color: #fff;
+                        white-space: nowrap;
+                        text-align: center;
+                        vertical-align: middle;
+                        line-height: 32px;
+                        border-radius: 50%;
+                        background-color: rgba(136, 136, 136, 0.5);
+                        border-color: rgba(22, 24, 35, .12);
+                        border-width: 0.5px;
+                        cursor: pointer; 
+                        width: 32px;
+                        height: 32px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover; 
+                        }
+                    }
+                }
+            }
+            .tiktok-1g0yu4c-StyledUserContentLink{
+                text-decoration: none;
+                -webkit-box-flex: 1;
+                flex-grow: 1;
+                height: 32px;
+                color: black;
+                .tiktok-yt7cul-DivUserTitleWrapper{
+                    display: flex;
+                    flex-direction: row;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    .suggest-user-title{
+                        color: rgb(22, 24, 35);
+                        font-family: SofiaPro, Arial, Tahoma, PingFangSC, sans-serif;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 22px;
+                        margin-top: -2px;
+                        max-width: 260px;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                    .tiktok-shsbhf-StyledVerifyBadge{
+                        margin-left: 4px;
+                        background-color: rgba(32,213,236,1);
+                        color: #fff;
+                        border-radius: 50%;
+                    }
+                    .suggest-user-desc{
+                        color: rgba(22, 24, 35, 0.75);
+                        font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 15px;
+                        max-width: 260px;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                    }
+                }   
+            }
+        }
+    }
+}
