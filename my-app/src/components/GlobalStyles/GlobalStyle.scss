@@ -22,6 +22,15 @@ body{
   -webkit-box-pack: justify;
   justify-content: space-between;
   align-self: center;
+  .content{
+        margin-right: 16px;
+    margin-left: 16px;
+    width: 692px;
+    max-width: 692px;
+    padding: 24px 0;
+    position: relative;
+    
+  }
 }
 .mt-20{
   margin-top: 20px;

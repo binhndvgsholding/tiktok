@@ -21,7 +21,7 @@ function Header(){
                                     type="search"
                                     className='searchInput' 
                                     placeholder="Search accounts and videos"
-                                    autocomplete="off"
+                                    
                                 />
                                 <span className='tiktok-hck1rr-SpanSpliter'></span>
                                 <button className='search-button' type='submit'>

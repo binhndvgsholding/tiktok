@@ -1,0 +1,258 @@
+.tiktok-content{
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    perspective-origin: right top;
+    top: 100px;
+    bottom: 0;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    padding-right: 8px;
+    .recommend-list-item-container{
+        display: flex;
+        align-items: flex-start;
+        padding: 20px 0;
+        position: relative;
+        max-width: 692px;
+        flex-direction: row;
+        .avatar-ancho{
+            flex: 0 0 auto;
+        }
+        .tiktok-uha12h-DivContainer{
+            position: relative;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            .tiktok-13abja1-SpanAvatarContainer-StyledAvatar{
+                display: inline-block;
+                box-sizing: border-box;
+                width: 56px;
+                height: 56px;
+                margin: 0;
+                padding: 0;
+                font-feature-settings: "tnum";
+                position: relative;
+                overflow: hidden;
+                color: #fff;
+                white-space: nowrap;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 32px;
+                border-radius: 50%;
+                background-color: rgba(136, 136, 136, 0.5);
+                border-color: rgba(22, 24, 35, .12);
+                border-width: 0.5px;
+                cursor: pointer;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .tiktok-10gdph9-DivContentContainer{
+            margin-left: 12px;
+            width: 624px;
+            flex: 1 1 624px;
+            .tiktok-1hhj6ie-DivTextInfoContainer{
+                margin-right: 114px;
+                .tiktok-1mnwhn0-DivAuthorContainer{
+                    display: flex;
+                    flex-direction: row;
+                    -webkit-box-align: center;
+                    align-items: center;
+                }
+                .tiktok-1lqhxf7-StyledAuthorAnchor{
+                    display: block;
+                    text-decoration: none;
+                    display: flex;
+                    color: black;
+                    height: 50px;
+                    .tiktok-debnpy-H3AuthorTitle{
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 25px;
+                        margin-right: 4px;
+                    }
+                    .tiktok-7uj1aq-H4AuthorName{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 25px;
+                    }
+                }
+                .tiktok-jubmfa-Button-StyledFollowButton{
+                    border-width: 1px;
+                    border-style: solid;
+                    border-radius: 4px;
+                    color: rgba(254, 44, 85, 1);
+                    border-color: rgba(254, 44, 85, 1);
+                    background-color: rgba(255, 255, 255, 1);
+                    min-height: 28px;
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: 600;
+                    font-family: ProximaNova,PingFangSC,sans-serif;
+                    display: flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    justify-content: center;
+                    user-select: none;
+                    cursor: pointer;
+                    box-sizing: border-box;
+                    right: 0;
+                    position: absolute;
+                    top: 28px;
+                    min-width: 88px;
+                    padding: 0 10px;
+                }
+                .tiktok-1ejylhp-DivContainer{
+                    font-size: 16px;
+                    line-height: 22px;
+                    .tiktok-j2a19r-SpanText{
+                        font-weight: 400;
+                    }
+                }
+                .tiktok-zo4ukd-H4Link{
+                    
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 22px;
+                    margin-top: 4px;
+                    margin-bottom: 12px;
+                    .tiktok-812w79-SvgIcon{
+                        transform: translateY(4px);
+                        margin-right: 5px;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                    }
+                }
+            }
+            .tiktok-kd7foj-DivVideoWrapper{
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+                .tiktok-1t973hv-DivVideoCardContainer{
+                    position: relative;
+                    box-sizing: border-box;
+                    background-size: cover;
+                    cursor: pointer;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    margin-right: 20px;
+                    height: 600px;
+                    .tiktok-196h150-CanvasVideoCardPlaceholder{
+                        display: block;
+                        visibility: hidden;
+                        
+                    }
+                    .tiktok-3g8031-DivVideoPlayerContainer{
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        .tiktok-yf3ohr-DivContainer{
+                            width: 100%;
+                            height: 100%;
+                            overflow: hidden;
+                            position: relative;
+                            background-color: rgba(22, 24, 35, .06);
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                            .tiktok-13egybz-DivBasicPlayerWrapper{
+                                position: absolute;
+                                left: 0px;
+                                top: 0px;
+                                width: 100%;
+                                height: 100%;
+                                .xgplayer-container{
+                                    width: 100%;
+                                    height: 100%;
+                                    video {
+                                        display: block;
+                                       
+                                        height: 100%;
+                                        object-fit: cover; 
+                                    }
+                                }
+                            }
+                        }
+                        .tiktok-mlcjt3-DivPlayIconContainer-StyledDivPlayIconContainer{
+                            left: 12px;
+                            position: absolute;
+                            padding: 10px;
+                            width: 40px;
+                            height: 40px;
+                            transition: opacity .3s;
+                            bottom: 26px;
+                        }
+                        .tiktok-q09c19-DivVoiceControlContainer{
+                            position: absolute;
+                            bottom: 26px;
+                            left: unset;
+                            right: 12px;
+                            .tiktok-105iyqb-DivMuteIconContainer {
+                                padding: 8px;      
+                                width: 40px;
+                                height: 40px;
+                                transition: opacity 0.3s ease 0s;
+                            }
+                        }
+                        .tiktok-fxqf0v-DivVideoControlBottom {
+                            width: 100%;
+                            height: 12px;
+                            position: absolute;
+                            bottom: 0;
+                            cursor: initial;
+                        }
+                    }
+                }
+                .tiktok-wc6k4c-DivActionItemContainer{
+                    display: flex;
+                    flex-direction: column;
+                    .tiktok-1ok4pbl-ButtonActionItem{
+                        border: none;
+                        background: none;
+                        outline: none;
+                        padding: 0;
+                        position: relative;
+                        display: flex;
+                        -webkit-box-align: center;
+                        align-items: center;
+                        cursor: pointer;
+                        flex-direction: column;
+                        .tiktok-12vi4up-SpanIconWrapper{
+                            color: rgb(22, 24, 35);
+                            display: flex;
+                            -webkit-box-pack: center;
+                            justify-content: center;
+                            -webkit-box-align: center;
+                            align-items: center;
+                            width: 48px;
+                            height: 48px;
+                            font-size: 20px;
+                            border-radius: 50%;
+                            transition: all ease-in-out 200ms;
+                            background-color: rgba(22, 24, 35, .06);
+                            margin-top: 8px;
+                            margin-bottom: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
