@@ -13,6 +13,7 @@ import {
   
 } from "react-icons/fa";
 const ContentVideo = () =>{
+
   const videoRef = useRef() ;
   const [playing , setPlaying] = useState(false) ;
   const options = {
@@ -34,7 +35,8 @@ const ContentVideo = () =>{
     if (isVisibile) {
       if (!playing) {        
         videoRef.current.play();
-        setPlaying(true)
+        setPlaying(true) ;
+        
       }
     }
     else {
@@ -119,10 +121,10 @@ const ContentVideo = () =>{
                         <div className='tiktok-13egybz-DivBasicPlayerWrapper'>
                             <div className='xgplayer-container'>
                                 <video 
-                                
+                                  loop
                                   ref={videoRef}
                                   onClick={handleVideo}
-                                  src="https://v16-webapp.tiktok.com/58daa0d3ddc15c416ddb7bf65b09c46c/63b5a177/video/tos/useast2a/tos-useast2a-pve-0037-aiso/oU8ODFfyHAdGgWCeAQewwI8nqbFy5jeDNJEdio/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=5070&bt=2535&cs=0&ds=3&ft=H3bLjvyBQ9wUxAyjA2HC~piRgGa-W.RUXxWlYQ4k-x4kS&mime_type=video_mp4&qs=0&rc=aGk5NzxoPGloZDk7NmVoZkBpM3M4MzY6ZnRpaDMzZjgzM0AzYjYzMDVjXi0xMDUuNS8vYSNgbWtjcjRnY2xgLS1kL2Nzcw%3D%3D&l=20230104095520D77209994A853C0575DF&btag=80000"></video>
+                                  src="https://v16-webapp.tiktok.com/577a8aa80cf634e5f16acb1606e718ec/63b67acb/video/tos/useast2a/tos-useast2a-pve-0037-aiso/oYYzpgK0jNDe6XXlBJeDQbnOCsAVImroQ3b7Pu/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2390&bt=1195&cs=0&ds=3&ft=4b~OyM3a8Zmo0rkUf64jVxgbjpWrKsdm&mime_type=video_mp4&qs=0&rc=MzU5ZWc0O2Q1NmUzZWU2OUBpM2VpdTc6Zm1oaDMzZjgzM0AyXzRhY2ItXy0xLS41YF8uYSNxby5xcjRnYW1gLS1kL2Nzcw%3D%3D&l=202301050122128031B6F770DC300217AB&btag=80000"></video>
                             </div>
                         </div>
                     </div>
@@ -167,7 +169,7 @@ export default function Home() {
   return (
     <section className='tiktok-content'>
         <ContentVideo />     
-        <ContentVideo />     
+        <ContentVideo/>     
         <ContentVideo />     
         <ContentVideo />     
         <ContentVideo />     
